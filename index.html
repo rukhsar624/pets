@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
-    <title>Pets | Home</title>
+    <title>Pets | Home1</title>
 </head>
 
 <body class="bodyHome">
@@ -27,21 +27,22 @@
             <nav class="destop-nav-bar">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="logo">
-                        <a href=""> <img src="./assets/images/SVG/logo.svg" alt="img"></a>
+                        <a href=".../../index.html"> <img src="./assets/images/SVG/logo.svg" alt="img"></a>
                     </div>
                     <div class="link">
                         <div class="d-flex justify-content-end">
-                            <!-- <a href="index.html" class="header_links active">Home</a> -->
                             <div class="dropdown header_links active">
                                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                   Home
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Home2</a></li>
+                                  <li><a class="dropdown-item" href=".../../index.html">Home1</a></li>
+                                  <li><a class="dropdown-item" href=".../../index1.html">Home2</a></li>
+
                                 </ul>
                               </div>
-                            <a href="" class="header_links">Services</a>
-                            <a href="" class="header_links">Aboout Us</a>
+                            <a href="./assets/pages/services.html" class="header_links">Services</a>
+                            <a href="./assets/pages/about-us.html" class="header_links">Aboout Us</a>
                             <a href="./assets/pages/contact-us.html" class="header_links">Contact Us</a>
                             <a href="tel:123-456-768-0"><button>Call Now <br>
                                     123-456-768-0</button>
@@ -56,7 +57,7 @@
         </div>
         <!-- moblie navbar -->
         <div id="main-content">
-            <div id="title"><a href=""><img src="./assets/images/SVG/logo.svg" alt=""></a></div>
+            <div id="title"><a href=".../../index.html"><img src="./assets/images/SVG/logo.svg" alt=""></a></div>
         </div>
         <div id="btn" class="">
             <div id="top"></div>
@@ -65,10 +66,19 @@
         </div>
         <div id="box" class="">
             <div id="items">
-                <div class="imglogo"><a href=""><img src="./assets/images/SVG/logo.svg" alt=""></a></div>
-                <div class="item"><a href="" class="header_links active">Home</a></div>
-                <div class="item"><a href="" class="header_links">Services</a></div>
-                <div class="item"><a href="" class="header_links">About Us</a></div>
+                <div class="imglogo"><a href=".../../index.html"><img src="./assets/images/SVG/logo.svg" alt=""></a></div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle header_links active" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href=".../../index.html">Home1</a></li>
+                      <li><a class="dropdown-item" href=".../../index1.html">Home2</a></li>
+
+                    </ul>
+                  </div>
+                <div class="item"><a href="./assets/pages/services.html" class="header_links">Services</a></div>
+                <div class="item"><a href="./assets/pages/about-us.html" class="header_links">About Us</a></div>
                 <div class="item"><a href="./assets/pages/contact-us.html" class="header_links">Contact Us</a></div>
                 <div class="item"><a href="tel:123-456-768-0"><button>Call Now <br>
                             123-456-768-0</button></a></div>
@@ -81,27 +91,27 @@
     <section class="mainBanner">
         <div class="container-fluid" id="container-fluid">
             <div class="row">
-                <div class="col-lg-6 padding">
+                <div class="col-lg-6 col-sm-12 col-md-6 padding">
                     <div class="pinkDiv">
-                        <div class="catDiv">
+                        <div class="catDiv wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                             <img src="./assets/images/SVG/cats.svg" alt="">
                         </div>
-                        <div class="catFootprint">
+                        <div class="catFootprint wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                             <img src="./assets/images/1x/footprint.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-12 col-md-6">
                     <div class="d-flex justify-content-center flex-column textDiv">
-                        <h1>Take Care Of<br>
+                        <h1 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Take Care Of<br>
                             Your Pets With<br>
                             Professionals</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br>
+                        <p class="wow animated fadeInRight">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br>
                             diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
                         <div class="d-flex  mb-5">
                             <div class="conBtndiv"><a href="./assets/pages/contact-us.html">
-                                    <button type="button" class="conBtn">Contact Us</button></a></div>
-                            <div class=""><a href=""><button class="sevBtn" type="button">
+                                    <button type="button" class="conBtn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Contact Us</button></a></div>
+                            <div class=""><a href="./assets/pages/services.html"><button class="sevBtn  wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s" type="button">
                                         View Services</button></a></div>
                         </div>
                     </div>
@@ -114,68 +124,65 @@
     <section class="servicesSec">
         <div class="container">
             <div class="row">
-                <h3>Services</h3>
+                <h3 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Services</h3>
                 <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="catOne">
+                    <div class="catOne wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="catOneInner">
                             <img src="./assets/images/1x/cat1withbg.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-sm-12 col-md-12 d-flex flex-column justify-content-center">
-                    <h4>Consultancy</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                <div class="col-lg-8 col-sm-12 col-md-12 d-flex flex-column justify-content-center" >
+                    <h4 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Consultancy</h4>
+                    <p class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
                 <div class="col-lg-8 col-sm-12 col-md-12 d-flex flex-column justify-content-center dogTwotext">
-                    <h4>Groomings</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h4 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Groomings</h4>
+                    <p class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
                 <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="dogTwo">
-                        <!-- <img src="./assets/images/1x/dog1withbg.png" alt=""> -->
+                    <div class="dogTwo wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="catOneInner">
                             <img src="./assets/images/1x/dog1withbg.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="catThree">
-                        <!-- <img src="./assets/images/1x/cat2withbg.png" alt=""> -->
+                    <div class="catThree wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="catOneInner">
                             <img src="./assets/images/1x/cat2withbg.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center">
-                    <h4>Training</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h4 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Training</h4>
+                    <p class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center dogTwotext">
-                    <h4>Vaccinations</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h4 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Vaccinations</h4>
+                    <p class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
                 <div class="col-lg-4">
-                    <div class="dogThree">
-                        <!-- <img src="./assets/images/1x/dog2withbg.png" alt=""> -->
+                    <div class="dogThree wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="catOneInner">
                             <img src="./assets/images/1x/dog2withbg.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="text-center mt-5 zIndex">
-                    <a href="./assets/pages/contact-us.html"><button type="button" class="conBtn">Contact Us</button></a>
+                    <a href="./assets/pages/contact-us.html"><button type="button" class="conBtn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Contact Us</button></a>
                 </div>
             </div>
         </div>
@@ -186,7 +193,7 @@
     <section class="professionalsSec">
         <div class="cstmDiv">
             <div class="cstmDiv1">
-                <div class="greenImg">
+                <div class="greenImg wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <img src="./assets/images/1x/greenbg.png" alt="">
                 </div>
                 <div class="whiteDivgreen">
@@ -195,12 +202,12 @@
             </div>
             <div class="cstmDiv2">
                 <div class="whitediv">
-                    <h3>Hire The Professionals<br>
+                    <h3 class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Hire The Professionals<br>
                         For Your Pets</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <p class="wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis </p>
-                        <a href="./assets/pages/contact-us.html"><button class="sevBtn" type="button">
+                        <a href="./assets/pages/contact-us.html"><button class="sevBtn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s" type="button">
                         Contact Us</button></a>
                 </div>
             </div>
@@ -215,27 +222,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h3 class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">About Us</h3>
+                    <p class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna </p>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <p class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in </p>
-                    <button class="readMore" type="button">
+                    <button class="readMore wow animated bounceIn" type="button">
                         Read More</button>
                     <div class="d-flex mt-4">
                         <div class="conBtndiv"><a href="">
-                                <button type="button" class="readMore"><i class="fa-solid fa-star"></i>Certified
+                                <button type="button" class="readMore wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s"><i class="fa-solid fa-star"></i>Certified
                                     Vets</button></a></div>
-                        <div class=""><a href=""><button class="aniLover" type="button">
+                        <div class=""><a href=""><button class="aniLover wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s" type="button">
                                     <i class="fa-solid fa-star"></i>Animal Lover</button></a></div>
                     </div>
-                    <button class="readMore" type="button">
+                    <button class="readMore wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s" type="button">
                         <i class="fa-solid fa-star"></i>10+ Years Of Experience</button>
                 </div>
                 <div class="col-lg-6">
-                    <div class="aboutimgDivMain">
+                    <div class="aboutimgDivMain wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s"s>
                         <div class="aboutimgDiv">
                             <img src="./assets/images/1x/greenbg.png" alt="">
                         </div>
@@ -248,7 +255,7 @@
     <!-- Testimonials section open -->
     <section class="testimoials">
         <div class="container ">
-            <h3 class="">Testimonials</h3>
+            <h3 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Testimonials</h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -311,17 +318,19 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
+        <div class="position-absolute leftRightBnt">
+            <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div>
     </section>
     <!-- Testimonials section close -->
     <!-- Contact Section open-->
     <section class="contactSec">
         <div class="container">
             <div class="row">
-                <h3>Ask Anything!</h3>
+                <h3 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Ask Anything!</h3>
                 <div class="col-lg-6 col-sm-12 col-md-6">
-                    <div class="contactCat">
+                    <div class="contactCat wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="contactCatInner">
                             <!-- <img src="./assets/images/1x/catask.png" alt=""> -->
                         </div>
@@ -329,7 +338,7 @@
                 </div>
                 <div class="col-lg-6 col-lg-6 col-sm-12 col-md-6">
 
-                    <form class="contactForm">
+                    <form class="contactForm wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="mb-3 col-lg-12">
                             <input type="text" placeholder="Full Name" class="text-light">
                         </div>
@@ -359,16 +368,16 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 col-md-12 col-sm-12 search">
                     <div class="footer-img">
-                        <a href="index.html"><img src="./assets/images/SVG/logo.svg" alt=""></a>
+                        <a href=".../../index.html"><img src="./assets/images/SVG/logo.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 ">
                     <p>Pages</p>
                     <ul class="p-0">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href=".../../index.html">Home</a></li>
+                        <li><a href="./assets/pages/about-us.html">About us</a></li>
+                        <li><a href="./assets/pages/services.html">Services</a></li>
+                        <li><a href="./assets/pages/contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">

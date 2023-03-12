@@ -31,10 +31,18 @@
                     </div>
                     <div class="link">
                         <div class="d-flex justify-content-end">
-                            <a href="../../index.html">Home</a>
-                            <a href="" class="header_links">Services</a>
-                            <a href="" class="header_links">Aboout Us</a>
-                            <a href="../../assets/pages/contact-us.html" class="header_links active">Contact Us</a>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Home
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="../../index.html">Home1</a></li>
+                                    <li><a class="dropdown-item" href="../../index1.html">Home2</a></li>
+                                </ul>
+                              </div>
+                            <a href="../../assets/pages/services.html" class="header_links active">Services</a>
+                            <a href="../../assets/pages/about-us.html" class="header_links">Aboout Us</a>
+                            <a href="../../assets/pages/contact-us.html" class="header_links">Contact Us</a>
                             <a href="tel:123-456-768-0"><button>Call Now <br>
                                     123-456-768-0</button>
                             </a>
@@ -59,10 +67,18 @@
             <div id="items">
                 <div class="imglogo"><a href="../../index.html"><img src="../../assets/images/SVG/logo.svg" alt=""></a>
                 </div>
-                <div class="item"><a href="../../index.html" class="header_links">Home</a></div>
-                <div class="item"><a href="" class="header_links">Services</a></div>
-                <div class="item"><a href="" class="header_links">About Us</a></div>
-                <div class="item"><a href="../../assets/pages/contact-us.html" class="header_links active">Contact
+                <div class="dropdown header_links">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="../../index.html">Home1</a></li>
+                        <li><a class="dropdown-item" href="../../index1.html">Home2</a></li>
+                    </ul>
+                  </div>
+                <div class="item"><a href="../../assets/pages/services.html" class="header_links active">Services</a></div>
+                <div class="item"><a href="../../assets/pages/about-us.html" class="header_links">About Us</a></div>
+                <div class="item"><a href="../../assets/pages/contact-us.html" class="header_links">Contact
                         Us</a></div>
                 <div class="item"><a href="tel:123-456-768-0"><button>Call Now <br>
                             123-456-768-0</button></a></div>
@@ -76,17 +92,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-md-6">
-                    <div class="d-flex justify-content-center flex-column textDivAbout">
-                        <h1>Services</h1>
+                    <div class="d-flex justify-content-center flex-column textDivAbout wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h1 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Services</h1>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 col-md-6">
                     <div class="pinkDivSer">
-                        <div class="aboutFootprintSer">
+                        <div class="aboutFootprintSer wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s" >
                             <img src="../../assets/images/1x/footprint.png" alt="">
                         </div>
                         <img src="../../assets/images/1x/servicesImg.png" alt="">
-                        <div class="pinkDivSerInner">
+                        <div class="pinkDivSerInner wow animated fadeInRight"  data-wow-duration="1s" data-wow-delay="0.5s">
                             <img src="../../assets/images/1x/groupPhotos.png" alt="">
                         </div>
                     </div>
@@ -102,12 +118,14 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="catOne">
-                        <img src="../../assets/images/1x/cat1withbg.png" alt="">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <div class="catOne wow animated fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="catOneInner">
+                            <img src="../../assets/images/1x/cat1withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-9 d-flex justify-content-center flex-column position-relative">
+                <div class="col-lg-8 col-sm-12 col-md-6 d-flex justify-content-center flex-column position-relative wow animated fadeInRight"  data-wow-duration="1s" data-wow-delay="0.5s"">
                     <h3>Consultancy</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -117,7 +135,7 @@
                     </p>
                     <div class="arrowDiv"><img src="../images/1x/arrow.png" alt=""></div>
                 </div>
-                <div class="col-lg-9 d-flex justify-content-center flex-column dogTwotextSer position-relative">
+                <div class="col-lg-8 col-sm-12 col-md-6 d-flex justify-content-center flex-column dogTwotextSer position-relative wow animated fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
                     <h3>Grooming</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -127,17 +145,21 @@
                     </p>
                     <div class="arrowDiv1"><img src="../images/1x/arrow.png" alt=""></div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="catOne">
-                        <img src="../../assets/images/1x/dog1withbg.png" alt="">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <div class="dogTwo wow animated fadeInRight"  data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="catOneInner">
+                            <img src="../images/1x/dog1withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="catOne">
-                        <img src="../../assets/images/1x/cat2withbg.png" alt="">
+                <div class="col-lg-4 col-sm-12 col-md-6 wow animated fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="catThree">
+                        <div class="catOneInner">
+                            <img src="../images/1x/cat2withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-9 d-flex justify-content-center flex-column position-relative">
+                <div class="col-lg-8 col-sm-12 col-md-6 d-flex justify-content-center flex-column position-relativewow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" >
                     <h3>Training</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -147,7 +169,7 @@
                     </p>
                     <div class="arrowDiv"><img src="../images/1x/arrow.png" alt=""></div> 
                 </div>
-                <div class="col-lg-9 d-flex justify-content-center flex-column dogTwotextSer">
+                <div class="col-lg-8 col-sm-12 col-md-6 d-flex justify-content-center flex-column dogTwotextSer wow animated fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.5s">
                     <h3>Vaccinations</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -156,13 +178,15 @@
                         feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
                     </p>
                 </div>
-                <div class="col-lg-3">
-                    <div class="catOne">
-                        <img src="../../assets/images/1x/dog2withbg.png" alt="">
+                <div class="col-lg-4 col-sm-12 col-md-6">
+                    <div class="dogThree wow animated fadeInRight"  data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="catOneInner">
+                            <img src="../images/1x/dog2withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="text-center mt-5 mb-5 zIndexc">
-                    <a href="./assets/pages/contact-us.html"><button type="button" class="sevBtn">Contact
+                <div class="text-center mt-5 mb-5 zIndexc wow animated bounceIn"  data-wow-duration="1s" data-wow-delay="0.5s">
+                    <a href="../../assets/pages/contact-us.html"><button type="button" class="sevBtn">Contact
                             Us</button></a>
                 </div>
             </div>
@@ -182,8 +206,8 @@
                     <p>Pages</p>
                     <ul class="p-0">
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Services</a></li>
+                        <li><a href="../../assets/pages/services.html">About us</a></li>
+                        <li><a href="../../assets/pages/contact-us.html">Services</a></li>
                         <li><a href="../../assets/pages/contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -224,7 +248,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
     <!--  -->
 
 

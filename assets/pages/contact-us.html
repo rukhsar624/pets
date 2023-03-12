@@ -29,9 +29,17 @@
                     </div>
                     <div class="link">
                         <div class="d-flex justify-content-end">
-                            <a href="../../index.html" >Home</a>
-                            <a href="" class="header_links">Services</a>
-                            <a href="" class="header_links">Aboout Us</a>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Home
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="../../index.html">Home1</a></li>
+                                    <li><a class="dropdown-item" href="../../index1.html">Home2</a></li>
+                                </ul>
+                              </div>
+                            <a href="../../assets/pages/services.html" class="header_links">Services</a>
+                            <a href="../../assets/pages/about-us.html" class="header_links">Aboout Us</a>
                             <a href="../../assets/pages/contact-us.html" class="header_links active">Contact Us</a>
                             <a href="tel:123-456-768-0"><button>Call Now <br>
                                     123-456-768-0</button>
@@ -55,11 +63,21 @@
         </div>
         <div id="box" class="">
             <div id="items">
-                <div class="imglogo"><a href="../../index.html"><img src="../../assets/images/SVG/logo.svg" alt=""></a></div>
-                <div class="item"><a href="../../index.html" class="header_links">Home</a></div>
-                <div class="item"><a href="" class="header_links">Services</a></div>
-                <div class="item"><a href="" class="header_links">About Us</a></div>
-                <div class="item"><a href="../../assets/pages/contact-us.html" class="header_links active">Contact Us</a></div>
+                <div class="imglogo"><a href="../../index.html"><img src="../../assets/images/SVG/logo.svg" alt=""></a>
+                </div>
+                <div class="dropdown header_links">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="../../index.html">Home1</a></li>
+                        <li><a class="dropdown-item" href="../../index1.html">Home2</a></li>
+                    </ul>
+                  </div>
+                <div class="item"><a href="../../assets/pages/services.html" class="header_links">Services</a></div>
+                <div class="item"><a href="../../assets/pages/about-us.html" class="header_links">About Us</a></div>
+                <div class="item"><a href="../../assets/pages/contact-us.html" class="header_links active">Contact
+                        Us</a></div>
                 <div class="item"><a href="tel:123-456-768-0"><button>Call Now <br>
                             123-456-768-0</button></a></div>
 
@@ -72,8 +90,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-md-6">
-                    <div class="d-flex justify-content-center flex-column textDivCont">
-                        <h1>Contact Us</h1>
+                    <div class="d-flex justify-content-center flex-column textDivCont wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h1 >Contact Us</h1>
                         <h5>Follow Us On</h5>
                         <div class="d-flex Cont-icon">
                             <div class="footerIcondivCont">
@@ -87,7 +105,7 @@
                 
             </div>
             <div class="col-lg-6 col-sm-12 col-md-6">
-                <div class="pinkDivCnt">
+                <div class="pinkDivCnt wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="pinkDivCntInner">
 
                     </div>
@@ -100,16 +118,16 @@
     <section class="contactSecCont">
         <div class="container">
             <div class="row">
-                <h3>Ask Anything!</h3>
+                <h3 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Ask Anything!</h3>
                 <div class="col-lg-6 col-sm-12 col-md-6">
-                    <div class="contactCat">
+                    <div class="contactCat wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="contactCatInner">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-lg-6 col-sm-12 col-md-6">
 
-                    <form class="contactForm">
+                    <form class="contactForm wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="mb-3 col-lg-12">
                             <input type="text" placeholder="Full Name" class="text-light">
                         </div>
@@ -125,13 +143,13 @@
                                 placeholder="Type Here...." class="text-light"></textarea>
                         </div>
                         <div class="mb-3 col-lg-12">
-                            <a href="./assets/pages/contact-us.html"><button type="button" class="btnCont mb-3">Contact Us</button></a>
+                            <a href="../../assets/pages/contact-us.html"><button type="button" class="btnCont mb-3 wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Contact Us</button></a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-        <div class="bones">
+        <div class="bones wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <img src="../../assets/images/1x/bone.png" alt="">
         </div>
     </section> 
@@ -149,8 +167,8 @@
                     <p>Pages</p>
                     <ul class="p-0">
                         <li><a href="../../index.html">Home</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Services</a></li>
+                        <li><a href="../../assets/pages/services.html">About us</a></li>
+                        <li><a href="../../assets/pages/contact-us.html">Services</a></li>
                         <li><a href="../../assets/pages/contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
@@ -191,7 +209,7 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>  
     <!--  -->
     <!-- jquery -->
     <script src="../../assets/js/jquery.min.js"></script>
