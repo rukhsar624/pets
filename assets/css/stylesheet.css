@@ -16,6 +16,10 @@
     font-family: 'Retroica-Regular';
     src: url("../fonts/Retroica\ Regular.ttf");
 }
+@font-face{
+    font-family: 'Poppins-regular';
+    src: url("../fonts/Poppins-Regular.ttf");
+}
 body {
     overflow-x: hidden !important;
 }
@@ -170,7 +174,7 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     height: 100px;
     padding-top: 1rem;
-    background-color: #4AE0F4;
+    /* background-color: #4AE0F4; */
 }
 
 #White_links .header_links {
@@ -316,6 +320,9 @@ body::-webkit-scrollbar-thumb {
     border: none; 
     border-radius: 30px;
 }
+.zIndex{
+    z-index: 1;
+}
 .conBtn:hover {
     background-color: #fff;
     color: #000;
@@ -433,31 +440,670 @@ body::-webkit-scrollbar-thumb {
 }
 .cstmDiv1{
     justify-content: start;
-    width: 50%;
+    width: 40%;
+    /* height: 500px; */
+    position: relative;
+    display: flex;
+    justify-content: end;
+    left: 20px;
+}
+.cstmDiv2{
+    width: 60%;
+    /* height: 500px; */
+}
+.whitediv{
+    background-color: #FFF6ED;
+    border-top-left-radius: 90px;
     height: 500px;
-    /* background-color: #0071BC; */
+    margin-top: 5rem;
+    /* right: 17px; */
     position: relative;
 }
-/* .cstmDiv1::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/1x/greenbg.png");
-    background-repeat: no-repeat;
-} */
+.whitediv h3{
+    color: #FF5050;
+    font-size: 3rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-weight: bold;
+    font-family:'HelveticaRounded-Bold';
+}
+.whitediv p{
+    color: #333333;
+    font-size: 1rem;
+    padding-left: 3rem;
+    font-family: 'Gilroy-Light';
+}
+.whitediv button{
+    margin-left: 3rem;
+
+}
 .greenImg{
-    width: 500px;
+    /* width: 50%; */
     height: 500px;
     display: flex;
     justify-content: center;
-
 }
 .greenImg img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
+}
+.cstmDiv1::after{
+    content: "";
+    position: absolute;
+    background-image: url("../images/1x/dog2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right:0px;
+}
+.whiteDivgreen{
+    position: absolute;
+    width: 710px;
+    height: 100px;
+    background-color: #FFF6ED;
+    bottom: 0px;
+    left: -20px;
+    z-index: 0;
 }
 /*  */
+/* About section */
+.aboutSec{
+    background-color: #4ae0f49e;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.aboutSec h3{
+    color: #653290;
+    font-family:'HelveticaRounded-Bold';
+    font-weight: bold;
+    padding-left: 4rem;
+
+}
+.aboutSec p{
+    font-family: "Gilroy-Light";
+    color: #808080;
+    padding-left: 4rem;
+}
+.aboutSec .readMore{
+    padding: 13px 50px;
+    background-color: #653290;
+    color: #fff;
+    /* font-family: 'Retroica-Regular'; */
+    border: none;
+    border-radius: 30px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.aboutSec .BtnGroup{
+    margin-left: 4rem;
+}
+.aboutSec  .aniLover{
+    padding: 13px 50px;
+    background-color: #653290;
+    color: #fff;
+    /* font-family: 'Retroica-Regular'; */
+    border: none;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+.aboutSec i{
+    padding-right: 10px;
+}
+.aboutimgDivMain{
+    width: 600px;
+    height: 600px;
+}
+.aboutimgDiv{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.aboutimgDiv:after{
+    position: absolute;
+    content: "";
+    bottom: -53px;
+    left: -140px;
+    background-image: url("../images/1x/aboutcat.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.aboutimgDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+/*  */
+/* testimoials section */
+.testimoials{
+    background-color: #4ae0f49e;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.testimoials h3{
+    color: #653290;
+    font-family:'HelveticaRounded-Bold';
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.card {
+    background-color: #bfffd5!important;
+    border: none!important;
+}
+.testimoials .cardSliderimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.testimoials .cardSliderimg img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 80px;
+}
+.testimoials .card-title{
+    color: #653290;
+    font-family:"HelveticaRounded-Bold";
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.testimoials .card-text{
+    font-family:"Gilroy-Light";
+    color: #333333;
+    margin-left: 2rem;
+}
+.testimoials strong{
+    color: #653290;
+    font-family:"HelveticaRounded-Bold";
+    display: flex;
+    justify-content: end;
+}
+/*  */
+/* footer Css */
+/* contact home css */
+.contactSec{
+    background-color: #4ae0f49e;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.contactSec h3{
+    font-family: 'Retroica-Regular';
+    color: #653290;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.contactCat {
+    min-height: 570px;
+    border-radius: 90px;
+    background-color: #FFC364;
+    width: 460px;
+    display: flex;
+    margin: auto;
+}
+.contactCatInner{
+    min-height: 570px;
+    border-radius: 90px;
+    width: 450px;
+    display: flex;
+    margin: auto;
+}
+.contactCatInner{
+    background-image: url("../images/1x/catask.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.contactForm input {
+    padding: 12px 25px;
+    background: transparent;
+    font-family: 'Retroica-Regular';
+    border: 1px solid #FFC364;
+    width: 100%;
+    outline: none;
+    border-radius: 50px;
+}
+.contactForm input::placeholder{
+    color: #653290;
+}
+.contactForm textarea {
+    padding: 15px 25px;
+    background: transparent;
+    border: 2px solid #E69024;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Retroica-Regular';
+    min-height: 290px;
+    max-height: 290px;
+}
+.contactForm textarea::placeholder{
+    color: #653290;
+}
+.btnCont {
+    border-radius: 20px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #653290;
+    /* font-family: 'Retroica-Regular'; */
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #653290;
+}
+/*  */
+#footer{
+    background-color: #4ae0f49e;
+}
+.footer-img {
+    width: 200px;
+    margin: auto;
+}
+.footer p {
+    color: #653290;
+    font-family: 'Retroica-Regular';
+}
+.footer ul li a {
+    transition: 0.2s all ease-in-out;
+}
+.footer ul li a {
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 0;
+    color: #653290;
+    padding-left: 0;
+    font-family: "Poppins-regular";
+}
+.footerCont ul li i {
+    margin-right: 11px;
+    font-size: 11px;
+}
+.footer ul li i {
+    color: #E69024;
+}
+.footer-bottom span {
+    text-decoration: none;
+    color: #653290;
+    font-family: "Gilroy-Light";
+}
+.footer-icon i{
+    color: #fff;
+}
+.footerIcondiv{
+    background-color: #E69024;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+.footerIcondiv1{
+    background-color: #E69024;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-left: 1rem;
+}
+.footerIcondiv, span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcondiv1, span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+/* Contact page Css */
+.body{
+    background-image: url("../images/1x/contactBg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainBannerContact{
+    position: relative;
+    width: 100%;
+    min-height: 675px;
+}
+.mainBannerCont{
+    position: relative;
+    width: 100%;
+    /* height: 675px; */
+    min-height: 675px;
+}
+.mainBannerCont h5{
+    color: #653290;
+    font-family: 'Retroica-Regular';
+    padding-top: 3rem;
+    margin-left: 4rem;
+}
+.Cont-icon{
+    margin-left: 4rem;
+}
+.Cont-icon i {
+    color: #fff;
+}
+.footerIcondivCont, span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcondivCont1, span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcondivCont {
+    background-color: #653290;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+.footerIcondivCont1 {
+    background-color: #653290;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.pinkDivCnt{
+    width: 650px;
+    min-height: 472px;
+    position: relative;
+    border-top-right-radius: 90px;
+    top: 160px;
+    right: 0px;
+}
+.pinkDivCntInner{
+    width: 450px;
+    min-height: 340px;
+    background-color: #FF6CB2;
+    border-top-right-radius: 90px;
+    display: flex;
+    margin: auto;
+}
+.pinkDivCnt::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url("../../assets/images/1x/whiteCat.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.textDivCont{
+    width: 700px;
+    min-height: 472px;
+    position: relative;
+    top: 160px;
+    right: 0px;
+}
+.textDivCont h1{
+    color: #653290;
+    font-family:'HelveticaRounded-Bold';
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+.contactSecCont{
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    position: relative;
+}
+.bones{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 42px;
+    bottom: 0px;
+}
+.bones img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contactSecCont h3{
+    font-family: 'Retroica-Regular';
+    color: #653290;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+/*  */
+/* About page css */
+.aboutBody{
+    background-color: #FFF6ED;
+}
+.mainBannerAbout{
+    position: relative;
+    width: 100%;
+    min-height: 675px;
+    padding-bottom: 2rem;
+}
+.textDivAbout{
+    width: 600px;
+    min-height: 472px;
+    position: relative;
+    top: 160px;
+    right: 0px;
+}
+.textDivAbout::before{
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/images/1x/purpleBone.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.textDivAbout h1 {
+    color: #653290;
+    font-family: 'HelveticaRounded-Bold';
+    font-size: 4rem;
+    margin-left: 4rem;
+}
+.pinkDivAbout{
+    width: 650px;
+    min-height: 472px;
+    position: relative;
+    z-index: 0;
+    top: 160px;
+    right: 0px;
+    /* background-color: #000708; */
+}
+.aboutFootprint{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: #E69024;  */
+}
+.aboutFootprint img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pinkDivAbout img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pinkDivAboutInner{
+    position: absolute;
+    content: "";
+    width: 450px;
+    min-height: 340px;
+    top: 3px;
+    right: 55px;
+    z-index: 1;
+    /* background-color: #506ED8; */
+}
+.pinkDivStory {
+    width: 650px;
+    min-height: 472px;
+    background-color: #FF6CB2;
+    position: relative;
+    border-top-right-radius: 90px;
+    top: 45px;
+    right: 0px;
+}
+
+.catdogDiv{
+    position: absolute;
+    height: 473px;
+    width: 650px;
+    top: 0px;
+    right:0px;
+    /* background-color: #333333; */
+}
+.catdogDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.storyDiv{
+    width: 700px;
+    height: 472px;
+    position: relative;
+    top: 45px;
+    right: 0px;
+}
+.storyDiv::before{
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/images/1x/creBone.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.storyDiv h3{
+    color: #653290;
+    padding-top:2rem;
+    font-family:'Retroica-Regular';
+}
+.storyDiv p{
+    color: #808080;
+    font-family: 'Gilroy-Light';
+    padding-top: 1rem;
+}
+.storyDiv i{
+    color: #FF737D;
+    padding-right: 10px;
+}
+.stortBtn{
+    color: #FF737D;
+    background-color: transparent;
+    font-family:'Retroica-Regular';
+    padding: 13px 0px;
+    border: none;
+    border-radius: 30px;
+}
+.storyGrp{
+    width: 65%;
+}
+.textSectionStory{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.textSectionStory p{
+     color: #808080;
+     font-family: 'Gilroy-Light';
+     width: 85%;
+     margin: auto;
+     margin-top: 2rem;
+}
+.bonesStory{
+    position: absolute;
+    width: 240px;
+    height: 130px;
+    right: 0px;
+    top: 0px;
+}
+.bonesStory img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bonesStoryBtm{
+    position: absolute;
+    width: 240px;
+    height: 130px;
+    left: 0px;
+    bottom:0px;
+}
+.bonesStoryBtm img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* services css */
+.pinkDivSer {
+    width: 650px;
+    min-height: 472px;
+    position: relative;
+    z-index: 0;
+    top: 160px;
+    right: 0px;
+    /* background-color: #000708; */
+}
+.aboutFootprintSer {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* background-color: #E69024; */
+}
+.pinkDivSerInner {
+    position: absolute;
+    content: "";
+    width: 650px;
+    min-height: 340px;
+    top: 63px;
+    right: 0px;
+    z-index: 1;
+    /* background-color: #506ED8; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -616,6 +1262,110 @@ body::-webkit-scrollbar-thumb {
     }
     .textDiv h1{
         margin-top: 2rem;
+    }
+    .aboutimgDivMain{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .aboutimgDiv{
+        width: 100%;
+    }
+    .aboutimgDiv:after {
+        bottom: -3px;
+        left: -19px;
+    }
+    .catOne , .dogThree {
+        width: 300px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dogTwo {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    .aboutSec{
+        padding-top: 0rem;
+    }
+    .aboutSec p , .aboutSec h3{
+        padding-left: 0px;
+        padding-top: 2rem;
+    }
+    .aboutSec .readMore{
+        margin-left: 0px;
+        font-size: 10px;
+        padding: 13px 38px;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .footer ul li {
+        text-align: center;
+    }
+    .footer-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .footerIcondiv{
+        margin-left: 0px;
+
+    }
+    .contactCat{
+        width: 100%;
+    }
+    .contactCatInner{
+        width: 100%;
+    }
+    .contactForm{
+        margin-top: 2rem;
+    }
+    .textDivCont{
+        width: 100%;
+        min-height: 400px;  
+        height: 400px;
+        top: 0px;
+    }
+    .pinkDivCnt{
+        width: 100%;
+        top: 0px;
+    }
+    .pinkDivCntInner{
+        width: 100%;
+    }
+    .textDivCont h1 , .mainBannerCont h5 , .Cont-icon{
+        margin-left: 0px;
+    }
+    .cstmDiv1 , .whiteDivgreen {
+        width: 100%;
+        left: 0px;
+    }
+    .cstmDiv2 , .greenImg{
+        width: 100%;
+
+    }
+    .testimoials {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .cstmDiv1::after {
+        content: "";
+        position: absolute;
+        background-image: url("../images/1x/dog2.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        background-size: cover;
+        height: 100%;
+        top: 35px;
+        right: 0px;
+    }
+    .textDivAbout{
+        width: 100%;
+        top: 150px;
     }
 }
 @media only screen and (max-width:390px) {}

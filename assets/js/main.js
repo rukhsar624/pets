@@ -41,4 +41,37 @@ window.addEventListener('keydown', function (event) {
 		sidebarBox.classList.remove('active');
 	}
 });
-
+// Swiper Slider
+var swiper = new Swiper(".mySwiper", {
+	slidesPerView: 3,
+	spaceBetween: 30,
+	navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+	breakpoints: {
+	  // when window width is >= 320px
+	  768: {
+		slidesPerView: 1,
+		spaceBetween: 20
+	  },
+	  375: {
+		slidesPerView: 1,
+		spaceBetween: 20
+	  },
+	  1920: {
+		slidesPerView: 3,
+		spaceBetween: 20
+	  },
+	  1600: {
+		slidesPerView: 3,
+		spaceBetween: 20
+  
+	  },
+	  1400: {
+		slidesPerView: 3,
+		spaceBetween: 20
+	  }
+	}
+  
+  });
