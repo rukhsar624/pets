@@ -226,8 +226,8 @@ body::-webkit-scrollbar-thumb {
 
 .active,
 .header_links:hover {
-    border-bottom: 2px solid #653290;
-    color: #0071BC;
+    border-bottom: 2px solid #000;
+    color: #000;
 }
 
 .image-change .active,
