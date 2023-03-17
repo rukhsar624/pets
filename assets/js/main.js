@@ -2,7 +2,7 @@
 $(window).scroll(function () {
 	var scroll = $(window).scrollTop();
 	if (scroll > 90) {
-		$("#navbar-fixed-top").css("background", "#FFEEEF");
+		$("#navbar-fixed-top").css("background", "#FFFFFF");
 		$("#navbar-fixed-top").css("box-shadow", "rgb(0 0 0 / 46%) 8px 8px 33px")
 	}
 	else {
@@ -52,8 +52,8 @@ var swiper = new Swiper(".mySwiper", {
 	breakpoints: {
 	  // when window width is >= 320px
 	  768: {
-		slidesPerView: 1,
-		spaceBetween: 20
+		slidesPerView: 2,
+		spaceBetween: 1
 	  },
 	  375: {
 		slidesPerView: 1,

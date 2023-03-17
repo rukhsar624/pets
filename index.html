@@ -20,7 +20,7 @@
     <title>Pets | Home</title>
 </head>
 
-<body>
+<body class="bodyHome">
     <!--Header open--->
     <header class="header" id="navbar-fixed-top">
         <div class="container">
@@ -31,7 +31,15 @@
                     </div>
                     <div class="link">
                         <div class="d-flex justify-content-end">
-                            <a href="index.html" class="header_links active">Home</a>
+                            <!-- <a href="index.html" class="header_links active">Home</a> -->
+                            <div class="dropdown header_links active">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Home
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">Home2</a></li>
+                                </ul>
+                              </div>
                             <a href="" class="header_links">Services</a>
                             <a href="" class="header_links">Aboout Us</a>
                             <a href="./assets/pages/contact-us.html" class="header_links">Contact Us</a>
@@ -71,7 +79,7 @@
     <!--Header close--->
     <!-- banner Open -->
     <section class="mainBanner">
-        <div class="container-fluid">
+        <div class="container-fluid" id="container-fluid">
             <div class="row">
                 <div class="col-lg-6 padding">
                     <div class="pinkDiv">
@@ -90,7 +98,7 @@
                             Professionals</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed<br>
                             diam nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
-                        <div class="d-flex  mb-5 BtnGroup">
+                        <div class="d-flex  mb-5">
                             <div class="conBtndiv"><a href="./assets/pages/contact-us.html">
                                     <button type="button" class="conBtn">Contact Us</button></a></div>
                             <div class=""><a href=""><button class="sevBtn" type="button">
@@ -107,52 +115,63 @@
         <div class="container">
             <div class="row">
                 <h3>Services</h3>
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class="catOne">
-                        <img src="./assets/images/1x/cat1withbg.png" alt="">
+                        <div class="catOneInner">
+                            <img src="./assets/images/1x/cat1withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-9 d-flex flex-column justify-content-center">
+                <div class="col-lg-8 col-sm-12 col-md-12 d-flex flex-column justify-content-center">
                     <h4>Consultancy</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
-                <div class="col-lg-9 d-flex flex-column justify-content-center dogTwotext">
+                <div class="col-lg-8 col-sm-12 col-md-12 d-flex flex-column justify-content-center dogTwotext">
                     <h4>Groomings</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class="dogTwo">
-                        <img src="./assets/images/1x/dog1withbg.png" alt="">
+                        <!-- <img src="./assets/images/1x/dog1withbg.png" alt=""> -->
+                        <div class="catOneInner">
+                            <img src="./assets/images/1x/dog1withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class="catThree">
-                        <img src="./assets/images/1x/cat2withbg.png" alt="">
+                        <!-- <img src="./assets/images/1x/cat2withbg.png" alt=""> -->
+                        <div class="catOneInner">
+                            <img src="./assets/images/1x/cat2withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-9 d-flex flex-column justify-content-center">
+                <div class="col-lg-8 d-flex flex-column justify-content-center">
                     <h4>Training</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
-                <div class="col-lg-9 d-flex flex-column justify-content-center dogTwotext">
+                <div class="col-lg-8 d-flex flex-column justify-content-center dogTwotext">
                     <h4>Vaccinations</h4>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
                         tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
                         iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="dogThree">
-                        <img src="./assets/images/1x/dog2withbg.png" alt="">
+                        <!-- <img src="./assets/images/1x/dog2withbg.png" alt=""> -->
+                        <div class="catOneInner">
+                            <img src="./assets/images/1x/dog2withbg.png" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="text-center mt-5 zIndex">
