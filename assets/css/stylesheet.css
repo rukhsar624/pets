@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'HelveticaRounded-Bold';
-    src: url("../fonts/HelveticaRounded-Bold.ttf");
+    src: url("../fonts/Helvetica\ Rounded\ Bold.otf");
 }
 
 @font-face {
@@ -382,6 +382,7 @@ body::-webkit-scrollbar-thumb {
     /* font-family: 'Retroica-Regular'; */
     border: none;
     border-radius: 30px;
+    box-shadow: rgba(84, 160, 236, 0.66) 2px 14px 20px;
 }
 
 .conBtn:hover {
@@ -407,6 +408,7 @@ body::-webkit-scrollbar-thumb {
     /* font-family: 'Retroica-Regular'; */
     border: none;
     border-radius: 30px;
+    box-shadow: rgba(84, 160, 236, 0.66) 2px 14px 20px;
 }
 
 .sevBtn:hover {
@@ -422,6 +424,7 @@ body::-webkit-scrollbar-thumb {
     /* height: 1000px; */
     position: relative;
     padding-bottom: 7rem;
+    opacity: 0.9;
 }
 
 .servicesSec::after {
@@ -441,11 +444,13 @@ body::-webkit-scrollbar-thumb {
     padding-top: 8rem;
     font-family: 'HelveticaRounded-Bold';
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .catOne {
     width: 300px;
     height: 400px;
+    margin-left: auto;
 }
 
 .catOneInner {
@@ -458,7 +463,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 43%;
+    border-radius: 40%;
 }
 
 .servicesSec h4 {
@@ -470,6 +475,7 @@ body::-webkit-scrollbar-thumb {
 .servicesSec p {
     color: #000;
     font-family: 'Gilroy-Light';
+
 }
 
 .dogTwo {
@@ -502,13 +508,14 @@ body::-webkit-scrollbar-thumb {
 .catThree {
     width: 300px;
     height: 400px;
+    margin-left: auto;
 }
 
 .catThree img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 43%;
+    border-radius: 40%;
 }
 
 .dogThree {
@@ -639,11 +646,13 @@ body::-webkit-scrollbar-thumb {
     right: 0px;
     /* background-color: #000708; */
 }
-.pinkDivIndex img{
+
+.pinkDivIndex img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .aboutFootprintIndex {
     position: absolute;
     width: 200px;
@@ -712,10 +721,12 @@ body::-webkit-scrollbar-thumb {
     min-height: 370px;
     border-radius: 100px;
 }
-.innerImgDiv{
+
+.innerImgDiv {
     width: 250px;
     min-height: 360px;
 }
+
 .indexCat img {
     width: 100%;
     height: 100%;
@@ -737,7 +748,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .indexCat1 h4 {
-    color: #E69024;
+    color: #FF5050;
     font-family: 'HelveticaRounded-Bold';
     font-weight: bold;
     text-align: center;
@@ -750,18 +761,18 @@ body::-webkit-scrollbar-thumb {
 
 .proBons {
     position: absolute;
-    width: 160px;
-    height: 100px;
-    top: -52px;
+    width: 210px;
+    height: 150px;
+    top: -76px;
     right: 0px;
     /* background-color: #000; */
 }
 
 .proBonsRig {
     position: absolute;
-    width: 160px;
-    height: 100px;
-    bottom: -52px;
+    width: 210px;
+    height: 150px;
+    bottom: -75px;
     left: 0px;
     /* background-color: #000; */
 
@@ -771,12 +782,14 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* transform: rotate(-12deg); */
 }
 
 .proBonsRig img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* transform: rotate(-12deg); */
 }
 
 .profIndex1 h3 {
@@ -810,31 +823,68 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 6rem;
 }
 
-.teamSection h6 {
+.text h5 {
     color: #653290;
     font-family: 'Retroica-Regular';
+    margin-left: 7rem;
+    padding-top: 20px;
 }
 
 .teamPerson1 {
-    /* width: 180px;
-    height: 240px; */
-    width: 160px;
-    height: 200px;
-    border-radius: 60px;
+    width: 200px;
+    height: 250px;
+    border-radius: 70px;
     background-color: #D883FF;
     display: flex;
     margin-left: auto;
     overflow: hidden;
 }
 
+.text2 h5 {
+    color: #FF5050;
+    font-family: 'Retroica-Regular';
+    /* margin-left: 7rem; */
+    padding-top: 20px;
+
+}
+
+.text3 h5 {
+    color: #653290;
+    font-family: 'Retroica-Regular';
+    margin-right: 7rem;
+    padding-top: 20px;
+
+}
+
 .teamPersonImg {
     /* width: 100%;
     transform: translate(13px, 100px); */
     width: 100%;
-    transform: translate(13px, 74px);
+    transform: translate(40px, 50px);
+    width: 309px;
+    /* height: 330px; */
 }
 
-.teamPersonImg img {
+.teamPersonImg1 {
+    /* width: 100%;
+        transform: translate(13px, 100px); */
+    width: 100%;
+    transform: translate(-45px, 39px);
+    width: 309px;
+    /* height: 330px; */
+}
+
+.teamPersonImg2 {
+    /* width: 100%;
+            transform: translate(13px, 100px); */
+    width: 100%;
+    transform: translate(-99px, -75px);
+    width: 309px;
+    /* height: 330px; */
+}
+
+.teamPersonImg img,
+.teamPersonImg1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -843,9 +893,9 @@ body::-webkit-scrollbar-thumb {
 .teamPerson2 {
     /* width: 180px;
     height: 240px; */
-    width: 160px;
-    height: 200px;
-    border-radius: 60px;
+    width: 200px;
+    height: 250px;
+    border-radius: 70px;
     display: flex;
     margin-left: auto;
     overflow: hidden;
@@ -857,9 +907,9 @@ body::-webkit-scrollbar-thumb {
 .teamPerson3 {
     /* width: 180px;
     height: 240px; */
-    width: 160px;
-    height: 200px;
-    border-radius: 60px;
+    width: 200px;
+    height: 250px;
+    border-radius: 70px;
     overflow: hidden;
     background-color: #FF8D8D;
     display: flex;
@@ -1107,6 +1157,20 @@ body::-webkit-scrollbar-thumb {
     padding-top: 6rem;
     padding-bottom: 6rem;
     position: relative;
+}
+
+/* .swiper-slide-next .testimoialsDiv {
+    transform: scale(1.2);
+    transition: .4s;
+} */
+.swiper-slide-duplicate-prev .testimoialsDiv {
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.testimoialsDiv {
+    min-height: 400px;
+    padding: 20px;
 }
 
 .leftRightBnt {
@@ -1866,22 +1930,27 @@ span {
     .catDiv {
         left: 0px;
     }
-    .pinkDivIndex{
+
+    .pinkDivIndex {
         width: 100%;
     }
-    .pinkDivAboutInnerindex{
+
+    .pinkDivAboutInnerindex {
         width: 100%;
     }
+
     .indexCat {
         width: 260px;
         min-height: 370px;
         border-radius: 100px;
     }
+
     .innerImgDiv {
         width: 250px;
         min-height: 360px;
     }
-    .contactCat{
+
+    .contactCat {
         width: 100%;
     }
 }
@@ -1936,38 +2005,47 @@ span {
     .pinkDivSer {
         width: 100%;
     }
-    .pinkDivIndex{
+
+    .pinkDivIndex {
         width: 100%;
     }
+
     .pinkDivAboutInnerindex {
         width: 100%;
     }
+
     .indexCat {
         width: 260px;
         min-height: 370px;
         border-radius: 100px;
     }
+
     .innerImgDiv {
         width: 250px;
         min-height: 360px;
     }
+
     .proCatIndex {
         width: 100%;
         min-height: 505px;
         height: 500px;
     }
+
     .contactCat {
         width: 100%;
     }
+
     #container-fluid1 {
         max-width: 1150px;
         margin: auto;
         min-height: 600px;
     }
-    .pinkDivStory{
+
+    .pinkDivStory {
         width: 100%;
     }
-    .storyDiv{
+
+    .storyDiv {
         width: 100%;
     }
 }
@@ -2016,26 +2094,32 @@ span {
     .pinkDivSer {
         width: 100%;
     }
+
     .pinkDivIndex {
         width: 100%;
     }
+
     .pinkDivAboutInnerindex {
         width: 100%;
     }
+
     .indexCat {
         width: 260px;
         min-height: 370px;
         border-radius: 100px;
     }
+
     .innerImgDiv {
         width: 250px;
         min-height: 360px;
     }
+
     .proCatIndex {
         width: 100%;
         min-height: 505px;
         height: 500px;
     }
+
     .contactCat {
         width: 100%;
     }
@@ -2151,10 +2235,12 @@ span {
     .pinkDivIndex {
         width: 100%;
     }
-    .proCatIndex{
+
+    .proCatIndex {
         width: 100%;
         min-height: 500px;
     }
+
     .circleDiv {
         width: 50px;
         height: 50px;
@@ -2162,19 +2248,23 @@ span {
         margin-top: 2rem;
         margin-left: 1.5rem;
     }
+
     .indexCat {
         width: 260px;
         min-height: 370px;
         border-radius: 100px;
     }
+
     .innerImgDiv {
         width: 250px;
         min-height: 360px;
     }
-    .proCatIndex{
+
+    .proCatIndex {
         width: 100%;
     }
-    .contactCat{
+
+    .contactCat {
         width: 100%;
     }
 }
@@ -2241,6 +2331,7 @@ span {
     .pinkDivSer {
         width: 100%;
     }
+
     .aboutFootprintIndex {
         position: absolute;
         width: 100px;
@@ -2249,25 +2340,31 @@ span {
         top: 0px;
         /* background-color: #E69024; */
     }
+
     .proCatIndex {
         width: 100%;
     }
+
     .pinkDivIndex {
         width: 100%;
     }
+
     .pinkDivAboutInnerindex {
         width: 100%;
         right: 0px;
     }
-    .serviceIndex1 h3{
+
+    .serviceIndex1 h3 {
         padding-top: 0px;
     }
+
     .mainBannerIndex {
         position: relative;
         width: 100%;
         min-height: 685px;
         padding-bottom: 4rem;
     }
+
     .circleDiv {
         width: 50px;
         height: 50px;
@@ -2275,13 +2372,16 @@ span {
         margin-top: 2rem;
         margin-left: 4.5rem;
     }
+
     .contactCat {
         width: 100%;
     }
+
     .innerImgDiv {
         width: 219px;
         min-height: 360px;
     }
+
     .indexCat {
         width: 252px;
         min-height: 370px;
@@ -2477,26 +2577,32 @@ span {
         width: 100%;
         top: 195px;
     }
-    .mainBannerIndex p{
+
+    .mainBannerIndex p {
         margin-left: 0px;
     }
+
     .BtnGroup {
         margin-left: 0rem;
     }
+
     .sevBtn {
         padding: 13px 46px;
     }
+
     .mainBannerIndex {
         position: relative;
         width: 100%;
         min-height: 635px;
         padding-bottom: 4rem;
     }
-    .dFlex{
+
+    .dFlex {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .aboutFootprintIndex {
         position: absolute;
         width: 100px;
@@ -2505,6 +2611,7 @@ span {
         top: 0px;
         /* background-color: #E69024; */
     }
+
     .pinkDivAbout {
         width: 100%;
         top: 30px;
@@ -2543,9 +2650,11 @@ span {
         border: none;
         border-radius: 30px;
     }
-    .serviceIndex1 h3{
+
+    .serviceIndex1 h3 {
         padding-top: 0px;
     }
+
     .textDivAbout h1 {
         font-size: 3rem;
         margin-left: 0rem;
@@ -2861,25 +2970,32 @@ span {
     .servicesSec h3 {
         padding-top: 0px;
     }
-    .aboutFootprintIndex{
+
+    .aboutFootprintIndex {
         left: 0px;
     }
+
     .sevBtn {
         padding: 13px 49px;
     }
-    .textDivAbout h1{
+
+    .textDivAbout h1 {
         margin-left: 0px;
     }
+
     .circleDiv {
         margin-left: 2.5rem;
     }
-    .serviceIndex1 h3{
+
+    .serviceIndex1 h3 {
         padding-top: 0px;
     }
+
     .ourStory {
         padding-top: 0rem;
         min-height: 620px;
     }
+
     .testFoot {
         position: absolute;
         width: 100px;
@@ -2887,6 +3003,7 @@ span {
         top: 1rem;
         left: 0px;
     }
+
     .oneFootprint {
         position: absolute;
         width: 100px;
@@ -2894,9 +3011,28 @@ span {
         right: 0px;
         bottom: -20px;
     }
-    .teamPerson1 , .teamPerson3{
+
+    .teamPerson1,
+    .teamPerson3 {
         margin: auto;
     }
+
+    .leftRightBnt {
+        right: 10px;
+        bottom: -70px;
+        width: 100px;
+        height: 60px;
+    }
+    .text h5 {
+        margin-left: 0rem;
+    }
+    .text3 h5 {
+        margin-right: 0rem;
+    }
+    .header{
+        height: 70px;
+    }
+
 }
 
 @media only screen and (max-width:390px) {}
@@ -2941,19 +3077,37 @@ span {
     .cstmDiv1::after {
         top: 71px;
     }
+
     .testFoot {
         position: absolute;
-        width: 100px;
+        width: 75px;
         height: 100px;
         top: 1rem;
         left: 0px;
     }
+
     .oneFootprint {
         position: absolute;
         width: 100px;
         height: 100px;
         right: 0px;
         bottom: -20px;
+    }
+
+    .leftRightBnt {
+        right: 10px;
+        bottom: -70px;
+        width: 100px;
+        height: 60px;
+    }
+    .text h5 {
+        margin-left: 0rem;
+    }
+    .text3 h5 {
+        margin-right: 0rem;
+    }
+    .header{
+        height: 70px;
     }
 }
 
