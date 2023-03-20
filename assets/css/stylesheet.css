@@ -702,7 +702,7 @@ body::-webkit-scrollbar-thumb {
 .serviceIndex1 h3 {
     color: #653290;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 1rem;
     font-family: 'HelveticaRounded-Bold';
     font-weight: bold;
 }
@@ -816,8 +816,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .teamPerson1 {
-    width: 180px;
-    height: 240px;
+    /* width: 180px;
+    height: 240px; */
+    width: 160px;
+    height: 200px;
     border-radius: 60px;
     background-color: #D883FF;
     display: flex;
@@ -826,8 +828,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .teamPersonImg {
+    /* width: 100%;
+    transform: translate(13px, 100px); */
     width: 100%;
-    transform: translate(13px, 100px);
+    transform: translate(13px, 74px);
 }
 
 .teamPersonImg img {
@@ -837,8 +841,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .teamPerson2 {
-    width: 180px;
-    height: 240px;
+    /* width: 180px;
+    height: 240px; */
+    width: 160px;
+    height: 200px;
     border-radius: 60px;
     display: flex;
     margin-left: auto;
@@ -849,8 +855,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .teamPerson3 {
-    width: 180px;
-    height: 240px;
+    /* width: 180px;
+    height: 240px; */
+    width: 160px;
+    height: 200px;
     border-radius: 60px;
     overflow: hidden;
     background-color: #FF8D8D;
@@ -1104,7 +1112,7 @@ body::-webkit-scrollbar-thumb {
 .leftRightBnt {
     right: 160px;
     bottom: -29px;
-    width: 100px;
+    width: 140px;
     height: 100px;
 }
 
@@ -2799,7 +2807,7 @@ span {
 
     .textDivAbout {
         width: 100%;
-        top: 175px;
+        top: 100px;
     }
 
     .pinkDivAbout {
@@ -2822,7 +2830,7 @@ span {
     .storyDiv {
         width: 100%;
         padding: 10px;
-        min-height: 500px;
+        min-height: 560px;
     }
 
     .storyGrp {
@@ -2863,10 +2871,31 @@ span {
         margin-left: 0px;
     }
     .circleDiv {
-        margin-left: 3.5rem;
+        margin-left: 2.5rem;
     }
     .serviceIndex1 h3{
         padding-top: 0px;
+    }
+    .ourStory {
+        padding-top: 0rem;
+        min-height: 620px;
+    }
+    .testFoot {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 1rem;
+        left: 0px;
+    }
+    .oneFootprint {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 0px;
+        bottom: -20px;
+    }
+    .teamPerson1 , .teamPerson3{
+        margin: auto;
     }
 }
 
@@ -2911,6 +2940,20 @@ span {
 
     .cstmDiv1::after {
         top: 71px;
+    }
+    .testFoot {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 1rem;
+        left: 0px;
+    }
+    .oneFootprint {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 0px;
+        bottom: -20px;
     }
 }
 
