@@ -537,7 +537,8 @@ body::-webkit-scrollbar-thumb {
 /*  */
 /* professional Section */
 .professionalsSec {
-    background-color: #4ae0f49e;
+    /* background-color: #4ae0f49e; */
+    background-image: linear-gradient(#4ae0f49e, #44f1da9e);
 }
 
 .cstmDiv {
@@ -550,6 +551,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: start;
     width: 40%;
     /* height: 500px; */
+    height: 730px;
     position: relative;
     display: flex;
     justify-content: end;
@@ -620,7 +622,8 @@ body::-webkit-scrollbar-thumb {
     width: 710px;
     height: 100px;
     background-color: #FFF6ED;
-    bottom: 0px;
+    /* bottom: 0px; */
+    bottom: 150px;
     left: -20px;
     z-index: 0;
 }
@@ -1286,7 +1289,8 @@ body::-webkit-scrollbar-thumb {
 .contactCatInner {
     background-image: url("../images/1x/catask.png");
     background-position: center;
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -1676,7 +1680,7 @@ span {
 
 .pinkDivStory {
     width: 650px;
-    min-height: 472px;
+    min-height: 412px;
     background-color: #FF6CB2;
     position: relative;
     border-top-right-radius: 90px;
@@ -1685,12 +1689,17 @@ span {
 }
 
 .catdogDiv {
-    position: absolute;
+    /* position: absolute;
     height: 473px;
     width: 650px;
     top: 0px;
     right: 0px;
-    /* background-color: #333333; */
+    background-color: #333333; */
+    position: absolute;
+    height: 568px;
+    width: 938px;
+    top: -155px;
+    right: 0px;
 }
 
 .catdogDiv img {
@@ -1723,14 +1732,14 @@ span {
 
 .storyDiv h3 {
     color: #653290;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     font-family: 'Retroica-Regular';
 }
 
 .storyDiv p {
     color: #808080;
     font-family: 'Gilroy-Light';
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
 }
 
 .storyDiv i {
@@ -1971,6 +1980,22 @@ span {
         height: 100px;
         z-index: 1;
     }
+    .pinkDivStory {
+        width: 740px;
+        min-height: 412px;
+        background-color: #FF6CB2;
+        position: relative;
+        border-top-right-radius: 90px;
+        top: 45px;
+        right: 0px;
+    }
+    .catdogDiv {
+        position: absolute;
+        height: 568px;
+        width: 918px;
+        top: -155px;
+        right: 0px;
+    }
 }
 
 @media only screen and (min-width:1400px) {
@@ -1993,6 +2018,13 @@ span {
         width: 140px;
         height: 100px;
         z-index: 1;
+    }
+    .catdogDiv {
+        position: absolute;
+        height: 568px;
+        width: 918px;
+        top: -155px;
+        right: 0px;
     }
 }
 
@@ -2067,9 +2099,16 @@ span {
     }
 
     .pinkDivStory {
-        width: 100%;
+        width: 550px;
+        min-height: 400px;
     }
-
+    .catdogDiv {
+        position: absolute;
+        height: 523px;
+        width: 820px;
+        top: -122px;
+        right: 0px;
+    }
     .storyDiv {
         width: 100%;
     }
@@ -2109,7 +2148,9 @@ span {
 
     .pinkDivStory,
     .catdogDiv {
-        width: 100%;
+        width: 540px;
+    height: 360px;
+    top: 40px;
     }
 
     .storyDiv {
@@ -2208,7 +2249,7 @@ span {
     }
 
     .pinkDivCntInner {
-        width: 100%;
+        width: 70%;
         min-height: 340px;
         background-color: #FF6CB2;
         border-top-right-radius: 90px;
@@ -2259,7 +2300,8 @@ span {
     }
 
     .catdogDiv {
-        width: 100%;
+        width: 910px;
+        /* width: 100%; */
         /* background-color: #333333; */
     }
 
@@ -2322,6 +2364,10 @@ span {
         width: 140px;
         height: 100px;
         z-index: 1;
+    }
+    .testimoialsDiv {
+        min-height: 400px;
+        padding: 2px;
     }
 }
 
@@ -2454,6 +2500,22 @@ span {
 }
 
 @media only screen and (max-width:820px) {
+    .pinkDivStory {
+        width: 650px;
+        min-height: 412px;
+        background-color: #FF6CB2;
+        position: relative;
+        border-top-right-radius: 90px;
+        top: 75px;
+        right: 0px;
+    }
+    .catdogDiv {
+        position: absolute;
+        height: 508px;
+        width: 938px;
+        top: -95px;
+        right: 0px;
+    }
     .dropdown {
         color: #000;
         display: flex;
@@ -2739,6 +2801,22 @@ span {
 }
 
 @media only screen and (max-width:768px) {
+    .pinkDivStory {
+        width: 650px;
+        min-height: 412px;
+        background-color: #FF6CB2;
+        position: relative;
+        border-top-right-radius: 90px;
+        top: 75px;
+        right: 0px;
+    }
+    .catdogDiv {
+        position: absolute;
+        height: 508px;
+        width: 938px;
+        top: -95px;
+        right: 0px;
+    }
     #main-content {
         display: block;
     }
@@ -2773,6 +2851,13 @@ span {
 @media only screen and (max-width:540px) {}
 
 @media only screen and (max-width:414px) {
+    .catdogDiv {
+        width: 617px;
+        /* width: 100%; */
+        /* background-color: #333333; */
+        height: 390px;
+        top: 24px;
+    }
     .dropdown {
         color: #000;
         display: flex;
