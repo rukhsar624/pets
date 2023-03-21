@@ -60,6 +60,10 @@ var swiper = new Swiper(".mySwiper", {
 		slidesPerView: 1,
 		spaceBetween: 20
 	  },
+	  414: {
+		slidesPerView: 1,
+		spaceBetween: 20
+	  },
 	  1920: {
 		slidesPerView: 3,
 		spaceBetween: 20

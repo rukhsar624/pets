@@ -1785,6 +1785,7 @@ span {
     height: 130px;
     left: 0px;
     bottom: 0px;
+    z-index: -1;
 }
 
 .bonesStoryBtm img {
