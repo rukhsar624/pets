@@ -2500,6 +2500,11 @@ span {
 }
 
 @media only screen and (max-width:820px) {
+    .storyDiv h3 {
+        color: #653290;
+        padding-top: 2rem;
+        font-family: 'Retroica-Regular';
+    }
     .pinkDivStory {
         width: 650px;
         min-height: 412px;
@@ -3203,6 +3208,11 @@ span {
     .header {
         height: 70px;
     }
+    .storyDiv h3 {
+        color: #653290;
+        padding-top: 2rem;
+        font-family: 'Retroica-Regular';
+    }
 
 }
 
@@ -3282,6 +3292,11 @@ span {
 
     .header {
         height: 70px;
+    }
+    .storyDiv h3 {
+        color: #653290;
+        padding-top: 2rem;
+        font-family: 'Retroica-Regular';
     }
 }
 
