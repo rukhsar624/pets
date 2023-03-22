@@ -1714,7 +1714,7 @@ span {
     position: relative;
     top: 45px;
     right: 0px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .storyDiv::before {
@@ -1922,6 +1922,9 @@ span {
 }
 
 @media only screen and (min-width:1600px) {
+    .contactCatInner{
+        background-size: contain;
+    }
     #main-content {
         display: none;
     }
@@ -2273,6 +2276,7 @@ span {
     .contactCat,
     .contactCatInner {
         width: 100%;
+        background-size: contain;
     }
 
     .textDivAbout {
@@ -2389,6 +2393,21 @@ span {
 }
 
 @media only screen and (max-width:1024px) {
+    .cstmDiv1{
+        width: 100%;
+        left: 0px;
+    }
+    .cstmDiv2{
+        width: 100%;
+        left: 0px;
+    }
+    .greenImg{
+        width: 100%;
+    }
+    .whiteDivgreen{
+        width: 100%;
+    left: 0px;
+    }
     #main-content {
         display: none;
     }
@@ -2628,6 +2647,7 @@ span {
     .contactCat,
     .contactCatInner {
         width: 100%;
+        background-size: cover;
     }
 
     .testimoials .cardSliderimg,
@@ -2816,6 +2836,19 @@ span {
         width: 140px;
         height: 100px;
         z-index: 1;
+    }
+    .item .for-cstm-collapse{
+        margin-top: 1rem;
+    }
+    .btn-toggle i{
+      margin-left: 10px;
+    }
+    .item .btn-toggle {
+        background-color: transparent !important;
+        color: #653290 !important;
+        font-family: 'Retroica-Regular' !important;
+        font-size: 15px !important;
+        font-weight: bold!important;
     }
 
 }
@@ -3063,6 +3096,7 @@ span {
 
     .contactCatInner {
         width: 100%;
+        background-size: cover;
     }
 
     .contactForm {
