@@ -69,7 +69,7 @@
             <div id="items">
                 <div class="imglogo"><a href=".../../index.html"><img src="./assets/images/SVG/logo.svg" alt=""></a>
                 </div>
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                     <button class="btn dropdown-toggle header_links active" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Home
@@ -79,6 +79,19 @@
                         <li><a class="dropdown-item" href=".../../index1.html">Home2</a></li>
 
                     </ul>
+                </div>  -->
+                <div class="item for-cstm-collapse">
+                    <button class="btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        Home<i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a class="link-dark rounded" href=".../../index.html">Home1</a></li>
+                            <li><a class="link-dark rounded" href=".../../index1.html">Home2</a></li>
+                            
+                        </ul>
+                    </div>
                 </div>
                 <div class="item"><a href="./assets/pages/services.html" class="header_links">Services</a></div>
                 <div class="item"><a href="./assets/pages/about-us.html" class="header_links">About Us</a></div>
@@ -343,7 +356,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- <div class="container">
             <h3 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Testimonials</h3>
             <div class="row swiper mySwiper">

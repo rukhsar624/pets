@@ -1290,7 +1290,7 @@ body::-webkit-scrollbar-thumb {
     background-image: url("../images/1x/catask.png");
     background-position: center;
     /* background-size: 100% 100%; */
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -1973,6 +1973,7 @@ span {
     .contactCat {
         width: 100%;
     }
+
     .leftRightBnt {
         right: 160px;
         bottom: 0px;
@@ -1980,6 +1981,7 @@ span {
         height: 100px;
         z-index: 1;
     }
+
     .pinkDivStory {
         width: 740px;
         min-height: 412px;
@@ -1989,6 +1991,7 @@ span {
         top: 45px;
         right: 0px;
     }
+
     .catdogDiv {
         position: absolute;
         height: 568px;
@@ -2012,6 +2015,7 @@ span {
     #main-content {
         display: none;
     }
+
     .leftRightBnt {
         right: 160px;
         bottom: 0px;
@@ -2019,6 +2023,7 @@ span {
         height: 100px;
         z-index: 1;
     }
+
     .catdogDiv {
         position: absolute;
         height: 568px;
@@ -2102,6 +2107,7 @@ span {
         width: 550px;
         min-height: 400px;
     }
+
     .catdogDiv {
         position: absolute;
         height: 523px;
@@ -2109,9 +2115,11 @@ span {
         top: -122px;
         right: 0px;
     }
+
     .storyDiv {
         width: 100%;
     }
+
     .leftRightBnt {
         right: 370px;
         bottom: 0px;
@@ -2149,8 +2157,8 @@ span {
     .pinkDivStory,
     .catdogDiv {
         width: 540px;
-    height: 360px;
-    top: 40px;
+        height: 360px;
+        top: 40px;
     }
 
     .storyDiv {
@@ -2196,6 +2204,7 @@ span {
     .contactCat {
         width: 100%;
     }
+
     .leftRightBnt {
         right: 660px;
         bottom: 0px;
@@ -2358,6 +2367,7 @@ span {
         top: 0px;
         /* background-color: #E69024; */
     }
+
     .leftRightBnt {
         right: 160px;
         bottom: 0px;
@@ -2365,6 +2375,7 @@ span {
         height: 100px;
         z-index: 1;
     }
+
     .testimoialsDiv {
         min-height: 400px;
         padding: 2px;
@@ -2505,6 +2516,7 @@ span {
         padding-top: 2rem;
         font-family: 'Retroica-Regular';
     }
+
     .pinkDivStory {
         width: 650px;
         min-height: 412px;
@@ -2514,6 +2526,7 @@ span {
         top: 75px;
         right: 0px;
     }
+
     .catdogDiv {
         position: absolute;
         height: 508px;
@@ -2521,6 +2534,7 @@ span {
         top: -95px;
         right: 0px;
     }
+
     .dropdown {
         color: #000;
         display: flex;
@@ -2795,6 +2809,7 @@ span {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .leftRightBnt {
         right: 90px;
         bottom: 0px;
@@ -2815,6 +2830,7 @@ span {
         top: 75px;
         right: 0px;
     }
+
     .catdogDiv {
         position: absolute;
         height: 508px;
@@ -2822,6 +2838,7 @@ span {
         top: -95px;
         right: 0px;
     }
+
     #main-content {
         display: block;
     }
@@ -2842,6 +2859,7 @@ span {
         font-size: 15px !important;
         font-weight: bold !important;
     }
+
     .leftRightBnt {
         right: 90px;
         bottom: 0px;
@@ -2856,6 +2874,20 @@ span {
 @media only screen and (max-width:540px) {}
 
 @media only screen and (max-width:414px) {
+    .item .for-cstm-collapse{
+        margin-top: 1rem;
+    }
+    .btn-toggle i{
+      margin-left: 10px;
+    }
+    .item .btn-toggle {
+        background-color: transparent !important;
+        color: #653290 !important;
+        font-family: 'Retroica-Regular' !important;
+        font-size: 15px !important;
+        font-weight: bold!important;
+    }
+
     .catdogDiv {
         width: 617px;
         /* width: 100%; */
@@ -2863,6 +2895,7 @@ span {
         height: 390px;
         top: 24px;
     }
+
     .dropdown {
         color: #000;
         display: flex;
@@ -2895,6 +2928,7 @@ span {
     .imglogo {
         width: 100px;
         margin: 50px auto 0 auto;
+        padding-bottom: 10px;
     }
 
     .item {
@@ -3192,9 +3226,9 @@ span {
 
     .leftRightBnt {
         right: 30px;
-    bottom: 0px;
-    width: 100px;
-    height: 60px;
+        bottom: 0px;
+        width: 100px;
+        height: 60px;
     }
 
     .text h5 {
@@ -3208,6 +3242,7 @@ span {
     .header {
         height: 70px;
     }
+
     .storyDiv h3 {
         color: #653290;
         padding-top: 2rem;
@@ -3241,7 +3276,8 @@ span {
     }
 
     .aboutSec .aniLover {
-        padding: 13px 30px;
+        padding: 10px 27px;
+        font-size: 13px;
     }
 
     .testimoials .cardSliderimg,
@@ -3293,84 +3329,58 @@ span {
     .header {
         height: 70px;
     }
+
     .storyDiv h3 {
         color: #653290;
         padding-top: 2rem;
         font-family: 'Retroica-Regular';
+    }
+
+    .pinkDivIndex {
+        width: 100%;
+        top: 0px !important;
+        min-height: 350px;
     }
 }
 
 @media only screen and (max-width:360px) {}
 
 @media only screen and (max-width:320px) {
-    
+    .mainBanner {
+        height: 900px;
+    }
+
+    .sevBtn {
+        padding: 13px 26px;
+    }
+
+    .card {
+        width: 20rem !important;
+    }
+
+    .aboutSec .aniLover {
+        padding: 5px 22px;
+        font-size: 12px;
+    }
+
+    .aboutSec .readMore {
+        margin-left: 0px;
+        font-size: 8px;
+        padding: 8px 18px;
+    }
+
+    .textDiv h1 {
+        font-size: 2rem;
+    }
+
+    .whitediv h3 {
+        color: #FF5050;
+        font-size: 2rem;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        font-weight: bold;
+        font-family: 'HelveticaRounded-Bold';
+    }
 }
 
 @media only screen and (max-width:280px) {}
-
-
-
-
-
-
-
-.accordian {
-    width: 100%;
-    height: 320px;
-    overflow: hidden;
-    margin: 100px auto;
-    /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35); */
-}
-
-.accordian ul {
-    width: 100%;
-}
-
-.accordian li {
-    position: relative;
-    display: block;
-    /* width: 160px; */
-    width: 400px;
-    float: left;
-    /* border-left: 1px solid #888;
-    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5); */
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    /* background-color: #29ABE2; */
-}
-
-.accordian ul:hover li {
-    width: 300px;
-    margin: auto;
-}
-
-.accordian ul li:hover {
-    width:650px;
-    margin: auto;
-}
-
-.accordian li img {
-    display: block;
-}
-
-/* .image_title {
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 640px;
-
-}
-
-.image_title a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 16px;
-} */
