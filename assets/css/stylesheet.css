@@ -2907,6 +2907,9 @@ span {
 @media only screen and (max-width:540px) {}
 
 @media only screen and (max-width:414px) {
+    .textDivCont h1 {
+        font-size: 3rem;
+    }
     .item .for-cstm-collapse{
         margin-top: 1rem;
     }
