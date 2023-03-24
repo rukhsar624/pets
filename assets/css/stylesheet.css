@@ -2910,6 +2910,9 @@ span {
         padding-top: 3rem;
         font-weight: 700;
     }
+    .sevBtn {
+        padding: 13px 29px;
+    }
 }
 
 @media only screen and (max-width:540px) {}
@@ -3388,7 +3391,18 @@ span {
     }
 }
 
-@media only screen and (max-width:360px) {}
+@media only screen and (max-width:360px) {
+    .whitediv h3 {
+        color: #ff5050;
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
+        font-weight: 700;
+    }
+    .sevBtn {
+        padding: 13px 29px;
+    }
+}
 
 @media only screen and (max-width:320px) {
     .mainBanner {
