@@ -2915,7 +2915,11 @@ span {
     }
 }
 
-@media only screen and (max-width:540px) {}
+@media only screen and (max-width:540px) {
+    .pinkDiv {
+        width: 90%;
+    }
+}
 
 @media only screen and (max-width:414px) {
     .textDivCont h1 {
