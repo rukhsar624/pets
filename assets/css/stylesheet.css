@@ -2902,7 +2902,15 @@ span {
     }
 }
 
-@media only screen and (max-width:600px) {}
+@media only screen and (max-width:600px) {
+    .whitediv h3 {
+        color: #ff5050;
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
+        font-weight: 700;
+    }
+}
 
 @media only screen and (max-width:540px) {}
 
